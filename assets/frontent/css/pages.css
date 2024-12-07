@@ -128,7 +128,7 @@
 
 /* -------------------------- Home page about css start -------------------------- */
 .home-page.about {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 150px);
 }
 
 .home-page.about .container-fluid .row .col-lg-6 {
@@ -205,7 +205,7 @@
 
 /* -------------------------- Home page about css end -------------------------- */
 .home-page.courses {
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
     background-color: #f0f0f0;
 }
 
