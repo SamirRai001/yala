@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-MediumItalic.eot');
+    src: local('Adelon Serial Medium Italic'), local('AdelonSerial-MediumItalic'),
+        url('AdelonSerial-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-MediumItalic.woff2') format('woff2'),
+        url('AdelonSerial-MediumItalic.woff') format('woff'),
+        url('AdelonSerial-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-Bold.eot');
+    src: local('Adelon Serial Bold'), local('AdelonSerial-Bold'),
+        url('AdelonSerial-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-Bold.woff2') format('woff2'),
+        url('AdelonSerial-Bold.woff') format('woff'),
+        url('AdelonSerial-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-BoldItalic.eot');
+    src: local('Adelon Serial Bold Italic'), local('AdelonSerial-BoldItalic'),
+        url('AdelonSerial-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-BoldItalic.woff2') format('woff2'),
+        url('AdelonSerial-BoldItalic.woff') format('woff'),
+        url('AdelonSerial-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-Medium.eot');
+    src: local('Adelon Serial Medium'), local('AdelonSerial-Medium'),
+        url('AdelonSerial-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-Medium.woff2') format('woff2'),
+        url('AdelonSerial-Medium.woff') format('woff'),
+        url('AdelonSerial-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-Italic.eot');
+    src: local('Adelon Serial Italic'), local('AdelonSerial-Italic'),
+        url('AdelonSerial-Italic.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-Italic.woff2') format('woff2'),
+        url('AdelonSerial-Italic.woff') format('woff'),
+        url('AdelonSerial-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-LightItalic.eot');
+    src: local('Adelon Serial Light Italic'), local('AdelonSerial-LightItalic'),
+        url('AdelonSerial-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-LightItalic.woff2') format('woff2'),
+        url('AdelonSerial-LightItalic.woff') format('woff'),
+        url('AdelonSerial-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-HeavyItalic.eot');
+    src: local('Adelon Serial Heavy Italic'), local('AdelonSerial-HeavyItalic'),
+        url('AdelonSerial-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-HeavyItalic.woff2') format('woff2'),
+        url('AdelonSerial-HeavyItalic.woff') format('woff'),
+        url('AdelonSerial-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-Heavy.eot');
+    src: local('Adelon Serial Heavy'), local('AdelonSerial-Heavy'),
+        url('AdelonSerial-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-Heavy.woff2') format('woff2'),
+        url('AdelonSerial-Heavy.woff') format('woff'),
+        url('AdelonSerial-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-Light.eot');
+    src: local('Adelon Serial Light'), local('AdelonSerial-Light'),
+        url('AdelonSerial-Light.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-Light.woff2') format('woff2'),
+        url('AdelonSerial-Light.woff') format('woff'),
+        url('AdelonSerial-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial.eot');
+    src: local('Adelon Serial'), local('AdelonSerial'),
+        url('AdelonSerial.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial.woff2') format('woff2'),
+        url('AdelonSerial.woff') format('woff'),
+        url('AdelonSerial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-ExtraBold.eot');
+    src: local('Adelon Serial ExtraBold'), local('AdelonSerial-ExtraBold'),
+        url('AdelonSerial-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-ExtraBold.woff2') format('woff2'),
+        url('AdelonSerial-ExtraBold.woff') format('woff'),
+        url('AdelonSerial-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adelon Serial';
+    src: url('AdelonSerial-ExtraBoldItalic.eot');
+    src: local('Adelon Serial ExtraBold Italic'), local('AdelonSerial-ExtraBoldItalic'),
+        url('AdelonSerial-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AdelonSerial-ExtraBoldItalic.woff2') format('woff2'),
+        url('AdelonSerial-ExtraBoldItalic.woff') format('woff'),
+        url('AdelonSerial-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+

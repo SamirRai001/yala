@@ -1,0 +1,227 @@
+/* ---------------------------------------------------- Home page css start ---------------------------------------------------- */
+
+/* -------------------------- Home page hero image carousel css start -------------------------- */
+.home-page.hero-image-carousel {
+    position: relative;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item .zoom-animation {
+    transition: transform 7s ease-in-out;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item.active .zoom-animation {
+    transform: scale(1.1);
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item:first-child img {
+    animation: initial-zoom 7s ease-in-out;
+}
+
+@keyframes initial-zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10%;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption h1 {
+    text-align: center;
+    animation-duration: 2s;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption h1.eng {
+    font-family: var(--logo-font-en);
+    font-size: 4.5rem;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption h1.nep {
+    font-family: var(--logo-font-ne);
+    font-size: 4.5rem;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption P {
+    font-weight: 300;
+    font-size: 1.1rem;
+    animation-duration: 2s;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption .round-btn {
+    animation-duration: 2s;
+    background-color: white;
+}
+
+.home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption h1.nep {
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 1099px) {
+    .home-page.hero-image-carousel .carousel-inner .carousel-item {
+        height: auto;
+    }
+
+    .home-page.hero-image-carousel .carousel-inner .carousel-item img {
+        height: auto;
+        min-height: 300px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption {
+        padding: 0px 3%;
+    }
+
+    .home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption h1.eng {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home-page.hero-image-carousel .carousel-inner .carousel-item img {
+        height: auto;
+        min-height: 400px;
+    }
+
+    .home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption h1.eng {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption {
+        padding: 0px 2%;
+    }
+
+    .home-page.hero-image-carousel .carousel-inner .carousel-item .costume-carousel-caption h1.eng {
+        font-size: 2.2rem;
+    }
+}
+
+/* -------------------------- Home page hero image carousel css end -------------------------- */
+
+/* -------------------------- Home page about css start -------------------------- */
+.home-page.about {
+    min-height: calc(100vh - 100px);
+}
+
+.home-page.about .container-fluid .row .col-lg-6 {
+    overflow: hidden;
+    position: relative;
+}
+
+.home-page.about .container-fluid .row .col-lg-6:nth-child(1) p {
+    text-align: justify;
+}
+
+.home-page.about .container-fluid .row .col-lg-6:nth-child(2) .card {
+    border: 1px solid var(--primary-green);
+}
+
+.home-page.about .container-fluid .row .col-lg-6:nth-child(2) .card .card-body {
+    padding: 50px;
+}
+
+.home-page.about .container-fluid .row .col-lg-6:nth-child(2) .svg-animation {
+    position: relative;
+    min-width: 100px;
+    max-width: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page.about .container-fluid .row .col-lg-6:nth-child(2) .svg-animation .eye-animation {
+    transform: scale(1.1);
+}
+
+.home-page.about .container-fluid .row .col-lg-6:nth-child(2) .svg-animation .coin-animation {
+    transform: scale(1.85);
+}
+
+.home-page.about .container-fluid .row .col-lg-6:nth-child(2) h2 {
+    color: var(--primary-green);
+}
+
+.home-page.about .container-fluid .row .col-lg-6:nth-child(2) h2.eng {
+ font-family: var(--logo-font-en);
+}
+
+@media only screen and (max-width: 1099px) {
+    .home-page.about {
+        min-height: auto;
+    }
+
+    .home-page.about .container-fluid .row .col-lg-6:nth-child(2) .card .card-body {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home-page.about .container-fluid .row .col-lg-6:nth-child(2) .card .card-body {
+        padding: 40px;
+    }
+
+    .home-page.about .container-fluid .row .col-lg-6:nth-child(2) .svg-animation {
+        min-width: 80px;
+        max-width: 80px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .home-page.about .container-fluid .row .col-lg-6:nth-child(2) .card .card-body {
+        padding: 20px;
+    }
+}
+
+/* -------------------------- Home page about css end -------------------------- */
+
+/* -------------------------- Home page about css end -------------------------- */
+.home-page.courses {
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.home-page.courses .card {
+    border: 1px solid var(--primary-green);
+    background-color: transparent;
+}
+
+.home-page.courses .row .col-lg-6:nth-child(1) p {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1099px) {
+    .home-page.courses {
+        min-height: auto;
+    }
+}
+/* -------------------------- Home page about css end -------------------------- */
+/* ---------------------------------------------------- Home page css end ---------------------------------------------------- */

@@ -1,0 +1,212 @@
+/* -------------------------- Navbar css start -------------------------- */
+
+/*  Upper Navbar */
+.navbar-holder .upper-nav {
+  padding: 20px 0px;
+  position: relative;
+  background-color: white;
+}
+
+.navbar-holder .upper-nav .container-fluid .navbar-brand img:first-child {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.navbar-holder .upper-nav .container-fluid .navbar-brand .logo-text {
+  height: 60px;
+}
+
+.navbar-holder .upper-nav .container-fluid .navbar-contact-holder .navbar-contact-link {
+  display: flex;
+  align-items: center;
+  color: var(--primary-green);
+  white-space: nowrap;
+}
+
+.navbar-holder .upper-nav .container-fluid .navbar-contact-holder .navbar-contact-link i {
+  width: 20px;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder {
+  justify-content: end;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder .social-links i {
+  font-size: 34px;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder .language-selector .btn {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  padding: 8px 0px;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder .language-selector .btn span {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder .language-selector .dropdown-menu .dropdown-item {
+  color: var(--primary-green);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder .language-selector .dropdown-menu .dropdown-item:hover,
+.navbar-holder .upper-nav .container-fluid .button-holder .language-selector .dropdown-menu .dropdown-item:focus {
+  background-color: var(--primary-green);
+  color: white;
+  opacity: 0.8;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder .language-selector .dropdown-menu .dropdown-item span {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-holder .upper-nav .container-fluid .navbar-contact-holder {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-holder .upper-nav .container-fluid .navbar-brand img:first-child {
+    width: 60px;
+    height: 60px;
+  }
+
+  .navbar-holder .upper-nav .container-fluid .navbar-brand .logo-text {
+    height: 50px;
+  }
+
+  .navbar-holder .upper-nav .container-fluid .button-holder .social-links {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-holder .upper-nav {
+    padding: 10px 0px;
+  }
+
+  .navbar-holder .upper-nav .container-fluid .button-holder {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 40px;
+    display: flex;
+    height: 65px;
+  }
+
+  .navbar-holder .upper-nav .container-fluid .button-holder .language-selector .btn {
+    width: 40px;
+    color: var(--primary-green) !important;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .navbar-holder .upper-nav .container-fluid .button-holder .language-selector .btn span {
+    font-size: 20px;
+    margin-right: 0px;
+    position: absolute;
+  }
+}
+
+/* Lower Navbar */
+.navbar-holder .navbar {
+  background-color: var(--primary-green);
+}
+
+.navbar-toggle {
+  position: fixed;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  animation: navbarSlideDown 0.5s ease;
+  z-index: 9999;
+}
+
+@keyframes navbarSlideDown {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.navbar-holder .navbar .navbar-brand {
+  font-size: 30px;
+  background-color: var(--primary-blue);
+}
+
+/* -------------------------- Navbar css end -------------------------- */
+
+/* -------------------------- Footer css start -------------------------- */
+.footer {
+  padding-top: 40px;
+  position: relative;
+  background-color: white;
+}
+
+.footer p {
+  color: var(--primary-green);
+  text-align: justify;
+  font-size: 15px;
+}
+
+.footer .container-fluid .footer-discription .footer-logo-holder img:first-child {
+  width: 60px;
+}
+
+.footer .container-fluid .footer-discription .footer-logo-holder .logo-text {
+  height: 50px;
+}
+
+.footer .container-fluid .footer-title {
+  color: var(--primary-green);
+}
+
+.footer .container-fluid .footer-title.eng {
+  font-family: var(--logo-font-en);
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.footer .container-fluid .footer-title.nep {
+  font-family: var(--logo-font-ne);
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.footer .container-fluid .footer-contact-link ul li a {
+  color: var(--primary-blue);
+}
+
+.footer .container-fluid .footer-contact-link ul li a i {
+  width: 25px;
+}
+
+.footer .container-fluid .footer-contact-link .footer-social-link {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+
+  .footer .footer-discription {
+    display: none;
+  }
+
+  .footer .container-fluid .footer-title,
+  .footer .container-fluid .footer-contact-link ul li {
+    justify-content: center;
+  }
+}
+
+/* -------------------------- Footer css end -------------------------- */
