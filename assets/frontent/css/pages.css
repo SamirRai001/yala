@@ -214,6 +214,10 @@
     background-color: transparent;
 }
 
+.home-page.courses .card .card-title {
+    color: var(--primary-green);
+}
+
 .home-page.courses .row .col-lg-6:nth-child(1) p {
     text-align: justify;
 }
