@@ -7,6 +7,10 @@
   background-color: white;
 }
 
+.navbar-holder .upper-nav .container-fluid .row .col:first-child {
+  max-width: 350px;
+}
+
 .navbar-holder .upper-nav .container-fluid .navbar-brand img:first-child {
   width: 70px;
   height: 70px;
@@ -30,6 +34,14 @@
 
 .navbar-holder .upper-nav .container-fluid .button-holder {
   justify-content: end;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder .nav-marquee {
+  font-size: 14px;
+}
+
+.navbar-holder .upper-nav .container-fluid .button-holder .nav-marquee span i {
+  width: 20px;
 }
 
 .navbar-holder .upper-nav .container-fluid .button-holder .social-links i {
@@ -70,6 +82,7 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .navbar-holder .upper-nav .container-fluid .button-holder .nav-marquee,
   .navbar-holder .upper-nav .container-fluid .navbar-contact-holder {
     display: none !important;
   }
@@ -129,6 +142,7 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   animation: navbarSlideDown 0.5s ease;
   z-index: 9999;
+  max-width: 1500px;
 }
 
 @keyframes navbarSlideDown {
@@ -185,8 +199,28 @@
   font-weight: 500;
 }
 
+.footer .container-fluid .footer-pages-link ul li {
+margin: -2px 0px;
+ 
+}
+
+.footer .container-fluid .footer-pages-link ul li a i {
+  width: 15px;
+}
+
+.footer .container-fluid .footer-pages-link ul li a,
 .footer .container-fluid .footer-contact-link ul li a {
   color: var(--primary-blue);
+  font-size: 15px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer .container-fluid .footer-pages-link ul li a:hover,
+.footer .container-fluid .footer-pages-link ul li a:focus,
+.footer .container-fluid .footer-contact-link ul li a:hover,
+.footer .container-fluid .footer-contact-link ul li a:focus {
+  opacity: 1;
 }
 
 .footer .container-fluid .footer-contact-link ul li a i {

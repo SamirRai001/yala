@@ -8,7 +8,9 @@
 
 :root {
   --primary-green: #109849;
+  --transparent-green: hsla(145, 81%, 33%, 0.5);
   --primary-blue: #24418f;
+  --transparent-blue: hsla(224, 60%, 35%, 0.7);
 
   --logo-font-np: 'ARAP 11 Regular';
   --logo-font-en: 'Adelon Serial';
@@ -42,7 +44,7 @@ a {
 .whole-web-container,
 .main-container {
   position: relative;
-  min-height: 00vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -82,11 +84,30 @@ h1.content-title.green {
   box-shadow: none;
 }
 
+.btn-primary-white,
+.btn-primary-white:hover,
+.btn-primary-white:focus {
+  background-color: white !important;
+}
+
 .btn-primary-green,
 .btn-primary-green:hover,
 .btn-primary-green:focus {
   background-color: var(--primary-green) !important;
   color: white !important;
+}
+
+.btn-outline-green {
+  color: var(--primary-green);
+  border: 1px solid var(--primary-green);
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-outline-green:hover,
+.btn-outline-green:focus {
+  background-color: var(--primary-green) !important;
+  color: white !important;
+  border: 1px solid var(--primary-green) !important;
 }
 
 .btn-primary-blue,
@@ -122,3 +143,11 @@ h1.content-title.green {
 }
 
 /* -------------------------- Scroll bar css end -------------------------- */
+
+.form-control {
+  background-color: transparent;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}

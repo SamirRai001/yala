@@ -171,7 +171,7 @@
 }
 
 .home-page.about .container-fluid .row .col-lg-6:nth-child(2) h2.eng {
- font-family: var(--logo-font-en);
+    font-family: var(--logo-font-en);
 }
 
 @media only screen and (max-width: 1099px) {
@@ -227,5 +227,47 @@
         min-height: auto;
     }
 }
+
 /* -------------------------- Home page about css end -------------------------- */
+
+/* -------------------------- Home page contact css start -------------------------- */
+.home-page.contact {
+    min-height: calc(100vh - 50px);
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.home-page.contact .overlay {
+    background-color: var(--transparent-blue);
+}
+
+.home-page.contact .container-fluid .col-lg-6:nth-child(2) .card {
+    max-width: 450px;
+}
+
+.home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body {
+    padding: 50px;
+}
+
+.home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body .form-control{
+    border: 1px solid #a5a5a5;
+}
+
+.home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body .form-control::placeholder {
+    color: #a5a5a5;
+}
+
+@media only screen and (max-width: 1099px) {
+    .home-page.contact {
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body {
+        padding: 20px;
+    }
+}
+/* -------------------------- Home page contact css end -------------------------- */
 /* ---------------------------------------------------- Home page css end ---------------------------------------------------- */

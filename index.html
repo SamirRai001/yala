@@ -57,7 +57,7 @@
             <div class="upper-nav">
                 <div class="container-fluid mx-sm-3 mx-lg-2 w-auto">
                     <div class="row">
-                        <div class="col-12 col-sm-8 col-md-6 col-lg-5">
+                        <div class="col">
                             <a href="index.html" class="navbar-brand d-flex align-items-center gap-2">
                                 <img src="assets/frontent/image/logo&icon/logo.png">
                                 <img class="logo-text english-text-logo"
@@ -66,7 +66,7 @@
                                     src="assets/frontent/image/logo&icon/nepali-text.png">
                             </a>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="col d-flex align-items-center">
                             <div class="row g-2 w-100">
                                 <div class="col-12 d-flex justify-content-end gap-3 navbar-contact-holder p-0">
                                     <a href="tel:+9779852082384" class="navbar-contact-link"><i
@@ -80,6 +80,11 @@
                                             data-ne="इटहरी–६, सुनसरी, नेपाल">Itahari-6, Sunsari, Nepal</span></a>
                                 </div>
                                 <div class="col-12 d-flex align-items-center button-holder gap-2 p-0">
+                                    <marquee class="w-100 nav-marquee" direction="left">
+                                        <p class="m-0 d-flex gap-3"><span class="text-info"><i
+                                                    class="fa-light fa-circle-info"></i>This website is under
+                                                construction.</span></p>
+                                    </marquee>
                                     <div class="d-flex align-items-center gap-2">
                                         <a class="btn no-border p-0 mt-1 social-links"
                                             href="https://www.facebook.com/yalambarcaregiver/" target="_blank"><i
@@ -292,7 +297,8 @@
                             <div>
                                 <h1 class="content-title green" data-en="Training & Certification Programs" data-ne="">
                                     Training & Certification Programs</h1>
-                                <p data-en="Yalamaber Care offers a variety of training programs tailored to the needs of healthcare professionals, from foundational courses to specialized certifications.">
+                                <p
+                                    data-en="Yalamaber Care offers a variety of training programs tailored to the needs of healthcare professionals, from foundational courses to specialized certifications.">
                                     Yalamaber Care offers a variety of training programs tailored to the needs of
                                     healthcare
                                     professionals, from foundational courses to specialized certifications.</p>
@@ -351,6 +357,73 @@
                 </div>
             </div>
 
+            <!-- contact -->
+            <div class="col-12 home-page contact mt-0"
+                style="background: url(assets/database/hero-carousel/herocarousel-1.jpg);">
+                <div class="overlay h-100 py-5">
+                    <div class="container-fluid mx-sm-3 mx-lg-5 w-auto h-100 d-flex align-items-center">
+                        <div class="w-100 overflow-hidden">
+                            <div class="row g-5">
+                                <div class="col-lg-6 d-flex align-items-center">
+                                    <div>
+                                        <h1 class="content-title text-white" data-en="Quick Message" data-ne="">Quick Message</h1>
+                                        <p class="text-white">Message us quickly, or visit our contact page for more contact information.</p>
+                                        <hr style="border-color: white; opacity: 1;">
+                                        <a href="#" class="btn btn-primary-white round-btn btn.no-border">Explore More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <form action="" id="messageForm" class="row g-3 needs-validation"
+                                                novalidate>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="input-group has-validation">
+                                                            <input name="name" type="text"
+                                                                class="form-control name-input" placeholder="Name"
+                                                                autocomplete="off" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="input-group has-validation">
+                                                            <input name="pnone" type="text"
+                                                                class="form-control js-phone-input" minlength="15"
+                                                                placeholder="Phone" autocomplete="off" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="input-group has-validation">
+                                                            <input name="email" type="email"
+                                                                class="form-control js-email-input" placeholder="Email"
+                                                                autocomplete="off" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <div class="input-group has-validation">
+                                                            <textarea class="form-control" rows="5" name="message"
+                                                                placeholder="Message" required></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button type="submit" class="btn btn-outline-green">Submit</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -375,6 +448,9 @@
                         <div class="row">
                             <div class="col-6">
                                 <h5 class="footer-title d-flex" data-en="PAGES" data-ne="">PAGES</h5>
+                                <ul class="p-0 m-0">
+                                    <li><a href="index.html"><i class="fa-solid fa-caret-right"></i>Home</a></li>
+                                </ul>
                             </div>
                             <div class="col-6">
                                 <h5 class="footer-title d-flex" data-en="QUICK LINKS" data-ne="">QUICK LINKS
@@ -433,12 +509,33 @@
 <!-- aos js -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+<!-- lottie animation -->
 <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 
 <!-- pages js -->
 <script src="assets/frontent/js/pages.js"></script>
 
+<!-- imask js -->
+<script src='https://unpkg.com/imask'></script>
+
+<!-- script js -->
+<script src="assets/js/script.js"></script>
+
 <!-- master js -->
 <script src="assets/frontent/js/master.js"></script>
+
+<script>
+    (function () {
+        'use strict';
+        const form = document.getElementById('messageForm');
+        form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+        }, false);
+    })();
+</script>
 
 </html>
