@@ -244,14 +244,23 @@
 
 .home-page.contact .container-fluid .col-lg-6:nth-child(2) .card {
     max-width: 450px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body {
     padding: 50px;
 }
 
-.home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body .form-control{
+.home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body .form-control {
+    color: white;
     border: 1px solid #a5a5a5;
+}
+
+.home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body .form-control:focus {
+    background-color: transparent;
 }
 
 .home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body .form-control::placeholder {
@@ -269,5 +278,6 @@
         padding: 20px;
     }
 }
+
 /* -------------------------- Home page contact css end -------------------------- */
 /* ---------------------------------------------------- Home page css end ---------------------------------------------------- */
