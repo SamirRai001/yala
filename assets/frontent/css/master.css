@@ -236,11 +236,6 @@ margin: -2px 0px;
   .footer .footer-discription {
     display: none;
   }
-
-  .footer .container-fluid .footer-title,
-  .footer .container-fluid .footer-contact-link ul li {
-    justify-content: center;
-  }
 }
 
 /* -------------------------- Footer css end -------------------------- */
