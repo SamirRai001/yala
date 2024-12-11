@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const dropdownItems = document.querySelectorAll('.dropdown-item');
+    const dropdownItems = document.querySelectorAll('.dropdown-item.language');
     const webLanguageDropdown = document.getElementById('webLanguageDropdown');
     function setLanguage(lang, flag) {
         localStorage.setItem('web-language', lang);

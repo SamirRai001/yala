@@ -244,10 +244,7 @@
 
 .home-page.contact .container-fluid .col-lg-6:nth-child(2) .card {
     max-width: 450px;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
     border: none;
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .home-page.contact .container-fluid .col-lg-6:nth-child(2) .card .card-body {

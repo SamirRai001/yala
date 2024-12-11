@@ -12,6 +12,8 @@
   --primary-blue: #24418f;
   --transparent-blue: hsla(224, 60%, 35%, 0.7);
 
+  --dropdown-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
   --logo-font-np: 'ARAP 11 Regular';
   --logo-font-en: 'Adelon Serial';
 }
@@ -122,6 +124,13 @@ h1.content-title.green {
   border-radius: 40px;
   font-size: 14px;
   font-weight: 400;
+}
+
+.sm-round-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 20px;
 }
 
 /* -------------------------- btn css end -------------------------- */
